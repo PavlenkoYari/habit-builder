@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard Regular"), local("MazzardH-Regular"), url("/fonts/MazzardH-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard Medium"), local("MazzardH-Medium"), url("/fonts/MazzardH-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard SemiBold"), local("MazzardH-SemiBold"), url("/fonts/MazzardH-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard Bold"), local("MazzardH-Bold"), url("/fonts/MazzardH-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard ExtraBold"), local("MazzardH-ExtraBold"), url("/fonts/MazzardH-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard Black"), local("MazzardH-Black"), url("/fonts/MazzardH-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,160 @@
+/* 🌞 Light Theme (Default) */
+:root {
+  /* 🎨 Main & Secondary Colors */
+  --color-main: #1777ff;
+  --color-main-hover: #4096ff;
+  --color-main-active: #0958d9;
+  --color-main-disabled: #91caff;
+
+  --color-secondary: #6c757d;
+  --color-secondary-hover: #5a6268;
+  --color-secondary-active: #545b62;
+  --color-secondary-disabled: #c8cbcf;
+
+  /* ✅ Status Colors */
+  --color-success: #52c41a;
+  --color-success-hover: #73d13d;
+  --color-success-active: #389e0d;
+  --color-success-disabled: #b7eb8f;
+
+  --color-warning: #faad14;
+  --color-warning-hover: #ffc53d;
+  --color-warning-active: #d48806;
+  --color-warning-disabled: #ffe58f;
+
+  --color-error: #ff4d4f;
+  --color-error-hover: #ff7875;
+  --color-error-active: #d9363e;
+  --color-error-disabled: #ffccc7;
+
+  /* 🧱 Backgrounds & Surfaces */
+  --background-tooltip-primary: #0f0f10;
+  --background-hover: rgba(0, 0, 0, .05);
+  --background-active: rgba(0, 0, 0, .1);
+  --background-primary: #ffffff;
+  --background-primary-hover: var(--background-hover);
+  --background-primary-active: var(--background-active);
+  --background-secondary: #f9f9f9;
+  --background-secondary-hover: var(--background-hover);
+  --background-secondary-active: var(--background-active);
+  --background-tertiary: #efefef;
+  --background-tertiary-hover: var(--background-hover);
+  --background-tertiary-active: var(--background-active);
+  --background-disabled: #f0f0f0;
+  --background-overlay: rgba(0, 0, 0, 0.5);
+
+  /* 🧱 Borders & Radius */
+  --border-primary: #f2f2f2;
+  --border-primary-hover: #e0e0e0;
+  --border-primary-disabled: #f8f8f8;
+  --border-secondary: #ededed;
+  --border-secondary-hover: #d9d9d9;
+  --border-secondary-disabled: #f5f5f5;
+  --border-radius-base: 4px;
+  --border-radius-lg: 8px;
+
+  /* 📝 Text & Typography */
+  --text-primary: #0d0d0d;
+  --text-primary-hover: #262626;
+  --text-primary-active: #000000;
+  --text-primary-disabled: #8c8c8c;
+  --text-color-inverse: #ffffff;
+  --text-color-error: var(--color-error);
+
+  --button-main-bg: var(--color-main);
+  --button-main-color: var(--text-color-inverse);
+  --button-main-hover-bg: var(--color-main-hover);
+  --button-main-active-bg: var(--color-main-active);
+
+  --button-disabled-bg: var(--background-disabled);
+  --button-disabled-color: var(--text-color-disabled);
+  --button-disabled-border: var(--border-primary-disabled);
+
+  /* 🌘 Shadows */
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --box-shadow-md: 0 3px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.12);
+  --box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+
+/* 🌙 Dark Theme */
+[data-theme='dark'] {
+  /* 🎨 Main & Secondary Colors */
+  --color-main: #1777ff;
+  --color-main-hover: #4096ff;
+  --color-main-active: #0958d9;
+  --color-main-disabled: #003a8c;
+
+  --color-secondary: #8c9196;
+  --color-secondary-hover: #a6adb4;
+  --color-secondary-active: #bdc4cc;
+  --color-secondary-disabled: #434343;
+
+  /* ✅ Status Colors */
+  --color-success: #52c41a;
+  --color-success-hover: #73d13d;
+  --color-success-active: #389e0d;
+  --color-success-disabled: #274916;
+
+  --color-warning: #faad14;
+  --color-warning-hover: #ffc53d;
+  --color-warning-active: #d48806;
+  --color-warning-disabled: #613400;
+
+  --color-error: #ff4d4f;
+  --color-error-hover: #ff7875;
+  --color-error-active: #d9363e;
+  --color-error-disabled: #58181c;
+
+  /* 🧱 Backgrounds & Surfaces */
+  --background-tooltip-primary: #0f0f10;
+  --background-hover: rgba(255,255,255, .05);
+  --background-active: rgba(255,255,255, .1);
+  --background-primary: #212121;
+  --background-primary-hover: var(--background-hover);
+  --background-primary-active: var(--background-active);
+  --background-secondary: #181818;
+  --background-secondary-hover: var(--background-hover);
+  --background-secondary-active: var(--background-active);
+  --background-tertiary: #303030;
+  --background-tertiary-hover: var(--background-hover);
+  --background-tertiary-active: var(--background-active);
+  --background-disabled: #141414;
+  --background-overlay: rgba(0, 0, 0, 0.8);
+
+  /* 🧱 Borders & Radius */
+  --border-primary: #2d2d2d;
+  --border-primary-hover: #404040;
+  --border-primary-disabled: #1a1a1a;
+  --border-secondary: #131313;
+  --border-secondary-hover: #262626;
+  --border-secondary-disabled: #0a0a0a;
+
+  /* 📝 Text & Typography */
+
+
+  --text-primary: #ffffff;
+  --text-primary-hover: #e6e6e6;
+  --text-primary-active: #f5f5f5;
+  --text-primary-disabled: #737373;
+  --text-color-inverse: #141414;
+  --text-color-error: var(--color-error);
+
+
+  /* 🔘 Buttons */
+  --button-main-bg: var(--color-main);
+  --button-main-color: var(--text-color-inverse);
+  --button-main-hover-bg: var(--color-main-hover);
+  --button-main-active-bg: var(--color-main-active);
+
+  --button-disabled-bg: var(--background-disabled);
+  --button-disabled-color: var(--text-color-disabled);
+  --button-disabled-border: var(--border-primary-disabled);
+
+  /* 🌘 Shadows */
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --box-shadow-md: 0 3px 6px rgba(0, 0, 0, 0.4);
+  --box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+  --box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}

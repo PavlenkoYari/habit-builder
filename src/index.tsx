@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/habit-builder">
         <Routes/>
     </BrowserRouter>
 );

@@ -1,8 +1,9 @@
-import { useMemo, useState } from "react";
+import { use, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { jsPDF } from "jspdf";
 import {toPng} from "html-to-image";
 import { Sparkles, Trophy, Flame, Clock, CheckCircle2, Quote, Camera, Share2, Download } from "lucide-react";
+import { useNavigate } from "react-router";
 
 // Types
 export type Difficulty = "easy" | "normal" | "hard";
@@ -439,7 +440,8 @@ function downloadCertificate(days: HabitDay[]) {
 export default function YouDidItPage({ days = demoDays }: { days?: HabitDay[] }) {
   const { key: playKey, replay } = useCelebrationKey();
   const [showShareModal, setShowShareModal] = useState(false);
-
+  const navigate = useNavigate();
+  
   const stats = useMemo(() => {
     const totalDays = days.length;
     const done = days.filter((d) => d.status === "done").length;
@@ -472,7 +474,7 @@ export default function YouDidItPage({ days = demoDays }: { days?: HabitDay[] })
 
       <header className="sticky top-0 z-10 backdrop-blur bg-white/70 border-b border-slate-200">
         <div className="mx-auto max-w-3xl px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2" onClick={() => navigate("/")}>
             <Sparkles className="h-5 w-5" />
             <span className="font-semibold">You Did It!</span>
           </div>

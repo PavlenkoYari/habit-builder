@@ -95,10 +95,13 @@ export default function HabitPromptPage() {
                 value={prompt}
                 onChange={(e) => setPrompt(e.target.value)}
                 onKeyDown={onKeyDown}
+            
                 placeholder="I want to improve my mental health. Suggest a 21-day plan with small daily steps, focused on reducing stress, improving mood, and building mindfulness. Please include short exercises like breathing, journaling, gratitude practice, or meditation. Keep each task under 15 minutes so I can stick to it."
                 rows={8}
                 className="w-full resize-y rounded-xl border border-slate-300 focus:border-slate-400 focus:ring-4 focus:ring-slate-200 outline-none bg-white p-4 leading-relaxed text-sm sm:text-base shadow-inner"
-              />
+              >
+                I want to improve my mental health. Suggest a 21-day plan with small daily steps, focused on reducing stress, improving mood, and building mindfulness. Please include short exercises like breathing, journaling, gratitude practice, or meditation. Keep each task under 15 minutes so I can stick to it.
+              </textarea>
 
               <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
                 <div className="flex items-center gap-2">

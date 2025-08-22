@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/habit-builder/static/css/main.fec52cff.css",
+    "main.js": "/habit-builder/static/js/main.b9fe1330.js",
+    "index.html": "/habit-builder/index.html",
+    "main.fec52cff.css.map": "/habit-builder/static/css/main.fec52cff.css.map",
+    "main.b9fe1330.js.map": "/habit-builder/static/js/main.b9fe1330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fec52cff.css",
+    "static/js/main.b9fe1330.js"
+  ]
+}
